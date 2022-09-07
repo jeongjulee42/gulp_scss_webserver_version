@@ -1,0 +1,31 @@
+{
+  "name": "gulp_scss",
+  "version": "1.0.0",
+  "description": "transform scss to css",
+  "main": "index.js",
+  "author": "jeongjulee <ljj3342@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/register": "^7.18.9",
+    "del": "4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.54.8"
+  },
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  }
+}
